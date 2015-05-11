@@ -1,61 +1,45 @@
-        WSO2 Web Services Framework for PHP (WSO2 WSF/PHP)
+NOTE: I have applied the tweak described here: https://jackson-brain.com/compiling-wso2-web-services-framework-for-php-5-5/
+ 
+WSO2 for PHP installation on Centos 6
+--------------------------------------------------------------------------
 
-  What is it?
-  -----------
-  WSO2 Web Services Framework for PHP (WSO2 WSF/PHP) is a PHP extension that 
-  can be used to provide and consume Web services. 
+1. Install openssl and httpd. Most likely they will be already installed in your linux distro.
+	yum -y install httpd openssl
 
-  It supports SOAP 1.1, SOAP 1.2, WSDL 1.1, WSDL 2.0, SOAP MTOM, WS-Addressing, 
-  WS-Security, WS-SecurityPolicy, WS-ReliableMessaging as well as REST style invocation.
+2. Install the required libs
+	yum -y install php php-xml gcc php-devel openssl-devel libxml2-devel
 
-  The Latest Version
-  ------------------
+3. Download and unzip the sources from this repository
+4. cd to the directory with the sources and run the below commands to compile and install
+	./configure
+	make
+	make install
 
-  Details of the latest version can be found on the WSO2 WSF/PHP
-  project page under http://wso2.org/projects/wsf/php.
+5. Copy the scripts
+	cp -R ./scripts/* /usr/share/php
 
-  Installation 
-  ------------
+6.Now a new module has been created and copied to the php modules folder and all we have to do is include it in our php configuration so we create a new file for this purpose:
+	touch /etc/php.d/wsf.ini
+	echo "extension=wsf.so" > /etc/php.d/wsf.ini
+	service httpd restart
 
-  Please refer docs/index.html for more information.
-  
-  Licensing
-  ---------
+7.Lastly you have to open the appropriate firewall ports (if they are not open laready):
+	system-config-firewall-tui -> customize -> check "WWW" and "Secure WWW" -> close -> ok -> yes
 
-  WSO2 WSF/PHP is released under Apache License Version 2.0.
-  Please see the file called LICENSE.
+8.(Re)start the web server:
+	service httpd restart
+	chkconfig httpd on
 
-  Contacts
-  --------
+9. Copy the samples
+	cp -R ./samples /var/www/html
 
-     o If you want freely available support for using WSO2 WSF/PHP please
-       join the WSO2 WSF/PHP user community by subscribing to users mailing
-       list, wsf-php-user@wso2.org by sending an email to 
-       'wsf-php-user-request@wso2.org' with the subject 'subscribe'.
+10. Test the installation by opening http://<server>/samples  in your browser. If you get an error 505 or any other error try restarting your web server:
 
-     o If you have a bug report for WSO2 WSF/PHP please go log a Jira issue
-       at https://wso2.org/jira/browse/WSFPHP
-
-     o If you want to participate in actively developing WSO2 WSF/PHP please
-       subscribe to the 'wsf-c-dev@wso2.org' by sending and email to 
-       wsf-c-dev-request@wso2.org with the subject 'subscribe'.
-
-
-  Training
-  -----------
-
-  WSO2 Inc. offers a variety of professional Training Programs, including
-  training on general Web services as well as WSO2 WSF/PHP.
-
-  For additional support information please refer to
-  http://wso2.com/training/course-catalog/
+THANKS TO:
+ 1. https://atrias.wordpress.com/2012/03/18/wso2-for-php-installation-on-centos-6/
+ 2. https://jackson-brain.com/compiling-wso2-web-services-framework-for-php-5-5/
 
 
-  Support
-  -----------
 
-  WSO2 Inc. offers a variety of development and production support
-  programs, ranging from Web-based support up through normal business
-  hours, to premium 24x7 phone support.
 
-  For additional support information please refer to http://wso2.com/support/ 
+
