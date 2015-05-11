@@ -1,0 +1,186 @@
+util.o: util.c /usr/include/stdc-predef.h ../../../axiom/include/axiom.h \
+ ../../../axiom/include/axiom_node.h ../../../util/include/axutil_env.h \
+ ../../../util/include/axutil_allocator.h \
+ ../../../util/include/axutil_utils_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/stdlib.h /usr/include/bits/stdlib-bsearch.h \
+ /usr/include/bits/stdlib-float.h ../../../util/include/axutil_error.h \
+ ../../../util/include/axutil_log.h \
+ ../../../util/include/axutil_thread_pool.h \
+ ../../../util/include/axutil_thread.h \
+ ../../../util/include/axutil_utils.h \
+ ../../../util/include/axutil_date_time.h \
+ ../../../util/include/axutil_base64_binary.h \
+ ../../../util/include/axutil_base64.h /usr/include/assert.h \
+ ../../../axiom/include/axiom_attribute.h \
+ ../../../util/include/axutil_qname.h \
+ ../../../util/include/axutil_string.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ ../../../axiom/include/axiom_namespace.h \
+ ../../../axiom/include/axiom_output.h \
+ ../../../axiom/include/axiom_xml_writer.h \
+ ../../../axiom/include/axiom_defines.h \
+ ../../../util/include/axutil_array_list.h \
+ ../../../axiom/include/axiom_child_element_iterator.h \
+ ../../../axiom/include/axiom_text.h \
+ ../../../axiom/include/axiom_data_handler.h \
+ ../../../axiom/include/axiom_children_iterator.h \
+ ../../../axiom/include/axiom_children_qname_iterator.h \
+ ../../../axiom/include/axiom_children_with_specific_attribute_iterator.h \
+ ../../../axiom/include/axiom_comment.h \
+ ../../../axiom/include/axiom_doctype.h \
+ ../../../axiom/include/axiom_document.h \
+ ../../../axiom/include/axiom_element.h \
+ ../../../util/include/axutil_hash.h \
+ ../../../axiom/include/axiom_navigator.h \
+ ../../../axiom/include/axiom_processing_instruction.h \
+ ../../../axiom/include/axiom_stax_builder.h \
+ ../../../axiom/include/axiom_xml_reader.h \
+ ../../../axiom/include/axiom_data_source.h \
+ ../../../util/include/axutil_stream.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h ../include/tcpmon_util.h
+
+/usr/include/stdc-predef.h:
+
+../../../axiom/include/axiom.h:
+
+../../../axiom/include/axiom_node.h:
+
+../../../util/include/axutil_env.h:
+
+../../../util/include/axutil_allocator.h:
+
+../../../util/include/axutil_utils_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+../../../util/include/axutil_error.h:
+
+../../../util/include/axutil_log.h:
+
+../../../util/include/axutil_thread_pool.h:
+
+../../../util/include/axutil_thread.h:
+
+../../../util/include/axutil_utils.h:
+
+../../../util/include/axutil_date_time.h:
+
+../../../util/include/axutil_base64_binary.h:
+
+../../../util/include/axutil_base64.h:
+
+/usr/include/assert.h:
+
+../../../axiom/include/axiom_attribute.h:
+
+../../../util/include/axutil_qname.h:
+
+../../../util/include/axutil_string.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+../../../axiom/include/axiom_namespace.h:
+
+../../../axiom/include/axiom_output.h:
+
+../../../axiom/include/axiom_xml_writer.h:
+
+../../../axiom/include/axiom_defines.h:
+
+../../../util/include/axutil_array_list.h:
+
+../../../axiom/include/axiom_child_element_iterator.h:
+
+../../../axiom/include/axiom_text.h:
+
+../../../axiom/include/axiom_data_handler.h:
+
+../../../axiom/include/axiom_children_iterator.h:
+
+../../../axiom/include/axiom_children_qname_iterator.h:
+
+../../../axiom/include/axiom_children_with_specific_attribute_iterator.h:
+
+../../../axiom/include/axiom_comment.h:
+
+../../../axiom/include/axiom_doctype.h:
+
+../../../axiom/include/axiom_document.h:
+
+../../../axiom/include/axiom_element.h:
+
+../../../util/include/axutil_hash.h:
+
+../../../axiom/include/axiom_navigator.h:
+
+../../../axiom/include/axiom_processing_instruction.h:
+
+../../../axiom/include/axiom_stax_builder.h:
+
+../../../axiom/include/axiom_xml_reader.h:
+
+../../../axiom/include/axiom_data_source.h:
+
+../../../util/include/axutil_stream.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../include/tcpmon_util.h:

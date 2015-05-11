@@ -1,0 +1,12 @@
+prefix=/usr/lib64/php/modules/wsf_c
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/axis2-1.6.0
+
+Name: Axis2/C
+Version: 1.6.0
+Description: Apache Axis2/C Version 1.6.0
+Requires:
+Libs: -L${libdir} -lxml2 -lz -ldl 
+Cflags: -I${includedir}
+

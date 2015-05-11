@@ -1,0 +1,84 @@
+sorted_list.lo: sorted_list.c /usr/include/stdc-predef.h \
+ /usr/include/stdlib.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/stdio.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_env.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_allocator.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_utils_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_error.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_log.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_thread_pool.h \
+ /home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_thread.h \
+ c14n_sorted_list.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_env.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_allocator.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_utils_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_error.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_log.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_thread_pool.h:
+
+/home/josh/Downloads/wso2-wsf-php-src-2.1.0/wsf_c/rampartc/../axis2c/util/include/axutil_thread.h:
+
+c14n_sorted_list.h:

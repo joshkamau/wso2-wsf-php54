@@ -1,0 +1,10 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--disable-option-checking' \
+'--prefix=/usr/lib64/php/modules/wsf_c' \
+'--cache-file=/dev/null' \
+'--srcdir=.' \
+"$@"

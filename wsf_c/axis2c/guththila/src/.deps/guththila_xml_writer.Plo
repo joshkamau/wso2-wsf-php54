@@ -1,0 +1,128 @@
+guththila_xml_writer.lo: guththila_xml_writer.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/endian.h \
+ /usr/include/bits/endian.h ../include/guththila_xml_writer.h \
+ ../include/guththila_token.h ../include/guththila_defines.h \
+ ../include/guththila_stack.h ../../util/include/axutil_utils.h \
+ ../../util/include/axutil_utils_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ ../../util/include/axutil_error.h ../../util/include/axutil_allocator.h \
+ ../../util/include/axutil_env.h ../../util/include/axutil_log.h \
+ ../../util/include/axutil_thread_pool.h \
+ ../../util/include/axutil_thread.h ../../util/include/axutil_date_time.h \
+ ../../util/include/axutil_base64_binary.h \
+ ../../util/include/axutil_base64.h /usr/include/assert.h \
+ ../include/guththila_buffer.h ../include/guththila.h \
+ ../include/guththila_reader.h ../include/guththila_attribute.h \
+ ../include/guththila_namespace.h ../include/guththila_error.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+../include/guththila_xml_writer.h:
+
+../include/guththila_token.h:
+
+../include/guththila_defines.h:
+
+../include/guththila_stack.h:
+
+../../util/include/axutil_utils.h:
+
+../../util/include/axutil_utils_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+../../util/include/axutil_error.h:
+
+../../util/include/axutil_allocator.h:
+
+../../util/include/axutil_env.h:
+
+../../util/include/axutil_log.h:
+
+../../util/include/axutil_thread_pool.h:
+
+../../util/include/axutil_thread.h:
+
+../../util/include/axutil_date_time.h:
+
+../../util/include/axutil_base64_binary.h:
+
+../../util/include/axutil_base64.h:
+
+/usr/include/assert.h:
+
+../include/guththila_buffer.h:
+
+../include/guththila.h:
+
+../include/guththila_reader.h:
+
+../include/guththila_attribute.h:
+
+../include/guththila_namespace.h:
+
+../include/guththila_error.h:

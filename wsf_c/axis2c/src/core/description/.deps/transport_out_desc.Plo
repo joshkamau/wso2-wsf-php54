@@ -1,0 +1,223 @@
+transport_out_desc.lo: transport_out_desc.c /usr/include/stdc-predef.h \
+ ../../../include/axis2_transport_out_desc.h \
+ ../../../include/axis2_const.h ../../../util/include/axutil_env.h \
+ ../../../util/include/axutil_allocator.h \
+ ../../../util/include/axutil_utils_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ ../../../util/include/axutil_error.h ../../../util/include/axutil_log.h \
+ ../../../util/include/axutil_thread_pool.h \
+ ../../../util/include/axutil_thread.h \
+ ../../../util/include/axutil_utils.h \
+ ../../../util/include/axutil_date_time.h \
+ ../../../util/include/axutil_base64_binary.h \
+ ../../../util/include/axutil_base64.h /usr/include/assert.h \
+ ../../../include/axis2_defines.h \
+ ../../../util/include/axutil_array_list.h \
+ ../../../include/axis2_phase_meta.h ../../../include/axis2_phase.h \
+ ../../../include/axis2_handler.h ../../../util/include/axutil_qname.h \
+ ../../../util/include/axutil_string.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ ../../../util/include/axutil_param.h ../../../util/include/axutil_hash.h \
+ ../../../include/axis2_handler_desc.h \
+ ../../../util/include/axutil_param_container.h \
+ ../../../include/axis2_phase_rule.h ../../../include/axis2_flow.h \
+ ../../../include/axis2_transport_sender.h ../../../include/axis2_ctx.h \
+ ../../../util/include/axutil_property.h ../../../include/axis2_msg_ctx.h \
+ ../../../include/axis2_relates_to.h \
+ ../../../util/include/axutil_stream.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h ../../../include/axis2_msg_info_headers.h \
+ ../../../include/axis2_endpoint_ref.h \
+ ../../../include/axis2_any_content_type.h \
+ ../../../include/axis2_svc_name.h ../../../axiom/include/axiom_node.h \
+ ../../../axiom/include/axiom_attribute.h \
+ ../../../axiom/include/axiom_namespace.h \
+ ../../../axiom/include/axiom_output.h \
+ ../../../axiom/include/axiom_xml_writer.h \
+ ../../../axiom/include/axiom_defines.h
+
+/usr/include/stdc-predef.h:
+
+../../../include/axis2_transport_out_desc.h:
+
+../../../include/axis2_const.h:
+
+../../../util/include/axutil_env.h:
+
+../../../util/include/axutil_allocator.h:
+
+../../../util/include/axutil_utils_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+../../../util/include/axutil_error.h:
+
+../../../util/include/axutil_log.h:
+
+../../../util/include/axutil_thread_pool.h:
+
+../../../util/include/axutil_thread.h:
+
+../../../util/include/axutil_utils.h:
+
+../../../util/include/axutil_date_time.h:
+
+../../../util/include/axutil_base64_binary.h:
+
+../../../util/include/axutil_base64.h:
+
+/usr/include/assert.h:
+
+../../../include/axis2_defines.h:
+
+../../../util/include/axutil_array_list.h:
+
+../../../include/axis2_phase_meta.h:
+
+../../../include/axis2_phase.h:
+
+../../../include/axis2_handler.h:
+
+../../../util/include/axutil_qname.h:
+
+../../../util/include/axutil_string.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+../../../util/include/axutil_param.h:
+
+../../../util/include/axutil_hash.h:
+
+../../../include/axis2_handler_desc.h:
+
+../../../util/include/axutil_param_container.h:
+
+../../../include/axis2_phase_rule.h:
+
+../../../include/axis2_flow.h:
+
+../../../include/axis2_transport_sender.h:
+
+../../../include/axis2_ctx.h:
+
+../../../util/include/axutil_property.h:
+
+../../../include/axis2_msg_ctx.h:
+
+../../../include/axis2_relates_to.h:
+
+../../../util/include/axutil_stream.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../../../include/axis2_msg_info_headers.h:
+
+../../../include/axis2_endpoint_ref.h:
+
+../../../include/axis2_any_content_type.h:
+
+../../../include/axis2_svc_name.h:
+
+../../../axiom/include/axiom_node.h:
+
+../../../axiom/include/axiom_attribute.h:
+
+../../../axiom/include/axiom_namespace.h:
+
+../../../axiom/include/axiom_output.h:
+
+../../../axiom/include/axiom_xml_writer.h:
+
+../../../axiom/include/axiom_defines.h:

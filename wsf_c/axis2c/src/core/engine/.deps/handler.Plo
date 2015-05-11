@@ -1,0 +1,146 @@
+handler.lo: handler.c /usr/include/stdc-predef.h \
+ ../../../include/axis2_handler.h ../../../include/axis2_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ ../../../util/include/axutil_utils_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ ../../../util/include/axutil_qname.h ../../../util/include/axutil_env.h \
+ ../../../util/include/axutil_allocator.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-bsearch.h \
+ /usr/include/bits/stdlib-float.h ../../../util/include/axutil_error.h \
+ ../../../util/include/axutil_log.h \
+ ../../../util/include/axutil_thread_pool.h \
+ ../../../util/include/axutil_thread.h \
+ ../../../util/include/axutil_string.h /usr/include/string.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ ../../../util/include/axutil_param.h ../../../util/include/axutil_hash.h \
+ ../../../util/include/axutil_array_list.h \
+ ../../../include/axis2_handler_desc.h \
+ ../../../util/include/axutil_param_container.h \
+ ../../../util/include/axutil_utils.h \
+ ../../../util/include/axutil_date_time.h \
+ ../../../util/include/axutil_base64_binary.h \
+ ../../../util/include/axutil_base64.h /usr/include/assert.h \
+ ../../../include/axis2_phase_rule.h
+
+/usr/include/stdc-predef.h:
+
+../../../include/axis2_handler.h:
+
+../../../include/axis2_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+../../../util/include/axutil_utils_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/wchar.h:
+
+../../../util/include/axutil_qname.h:
+
+../../../util/include/axutil_env.h:
+
+../../../util/include/axutil_allocator.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+../../../util/include/axutil_error.h:
+
+../../../util/include/axutil_log.h:
+
+../../../util/include/axutil_thread_pool.h:
+
+../../../util/include/axutil_thread.h:
+
+../../../util/include/axutil_string.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+../../../util/include/axutil_param.h:
+
+../../../util/include/axutil_hash.h:
+
+../../../util/include/axutil_array_list.h:
+
+../../../include/axis2_handler_desc.h:
+
+../../../util/include/axutil_param_container.h:
+
+../../../util/include/axutil_utils.h:
+
+../../../util/include/axutil_date_time.h:
+
+../../../util/include/axutil_base64_binary.h:
+
+../../../util/include/axutil_base64.h:
+
+/usr/include/assert.h:
+
+../../../include/axis2_phase_rule.h:
